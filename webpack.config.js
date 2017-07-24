@@ -1,8 +1,6 @@
 //webpack.config.js
 const path = require('path');
 
-var webpack = require('webpack');
-
 module.exports = function(env) {
     return {
         entry: "./src/js/app.js",
